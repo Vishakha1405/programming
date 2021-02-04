@@ -1,0 +1,13 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+   int a,b,temp;
+   printf("enter the two numbers\n");
+   scanf("%d%d",&a,&b);
+   temp=a;
+   a=b;
+   b=temp;
+   printf("enter the no after swapping number\n",a,b);
+   getch();
+  }
